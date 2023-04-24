@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ArticleList  page css */
+.card {
+  height: 23rem;
+  width: 17rem;
+  border: 1px solid #e4e4e4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card:hover{
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,.1);
+}
+
+.card-img-top {
+  height: 200px;
+  width: 16rem;
+  object-fit: cover;
+ padding: 7px;
+}
+
+.card-title {
+ margin: 1px 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin: 4px 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-button{
+  border: none;
+  background-color: black;
+  color: blanchedalmond;
+  width: 8rem ;
+  height: 2rem;
+  border-radius: 3px;
+  margin: 9px 10px ;
+}
+.icon{
+  font-size: 30px;
+  margin-left: 4.5rem;
 }
